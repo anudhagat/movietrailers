@@ -12,7 +12,7 @@ inception = media.Movie("Inception", "World where corporate secrets are stolen f
 
 gladiator = media.Movie("Gladiator", "A former Roman Army General is sold into slavery and the hard life of a gladiator", "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg", "https://www.youtube.com/watch?v=owK1qxDselE")
 
-incredibles = media.Movie("The Incredibles", "Superheros try to lead ordinary lives", "https://upload.wikimedia.org/wikipedia/en/e/ec/The_Incredibles.jpg", "https://www.youtube.com/watch?v=eZbzbC9285I")
+incredibles = media.Movie("The Incredibles", "Superhero Family battles the Evil Scientist", "https://upload.wikimedia.org/wikipedia/en/e/ec/The_Incredibles.jpg", "https://www.youtube.com/watch?v=eZbzbC9285I")
 
 # Store these Movie variables in a movies list
 movies = [star_wars, star_trek, star_trek_into_darkness,inception, gladiator, incredibles]

@@ -17,7 +17,8 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            background-color: #006699;
+            font-family: "Times New Roman", Georgia, Serif;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -35,8 +36,8 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
+            margin-bottom: 15px;
+            padding-top: 15px;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -45,6 +46,9 @@ main_page_head = '''
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;
+        }
+        .well {
+            background-color: white;
         }
         .scale-media iframe {
             border: none;
@@ -101,14 +105,8 @@ main_page_content = '''
       </div>
     </div>
     <!-- Main Page Content -->
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
-          </div>
-        </div>
-      </div>
+    <div class="container page-header well text-center">
+      <h1>Best Movies of the Century</h1>      
     </div>
     <div class="container">
       {movie_tiles}
@@ -122,7 +120,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h3>{movie_title}</h3>
 </div>
 '''
 
