@@ -14,7 +14,7 @@ Open IDLE (Python GUI) tool. Open the file entertainment.py using the IDLE (unde
 
 What this Website Does:
 -----------------------
-When you run entertainment.py, it opens a file called fresh_tomatoes.html in your web browser.
+When you run entertainment.py, it opens a file called movies.html in your web browser.
 
 NOTE: On your computer, if you have associated a .hmtl file with an editor application, this file will be opened in that editor application. To get the expected behavior, please associate .html file to be opened by a web browser.
 

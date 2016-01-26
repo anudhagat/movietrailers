@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes
+import movies_trailers
 
 # Instantiate 6 of my favorite movies
 star_wars = media.Movie("Star Wars: Episode VII", "2h 16m",
@@ -41,5 +41,5 @@ incredibles = media.Movie("The Incredibles", "1h 56m",
 # Store these Movie variables in a movies list
 movies = [star_wars, star_trek, star_trek_into_darkness, inception,
           gladiator, incredibles]
-# Use fresh tomatoes to open an html page using the movies variable
-fresh_tomatoes.open_movies_page(movies)
+# Use movies to open an html page using the movies variable
+movie_trailers.open_movies_page(movies)
