@@ -1,5 +1,5 @@
 import media
-import movies_trailers
+import movie_trailers
 
 # Instantiate 6 of my favorite movies
 star_wars = media.Movie("Star Wars: Episode VII", "2h 16m",
